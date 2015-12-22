@@ -78,6 +78,7 @@
 }
 .reveal .zwj select {
     font-size: 1em;
+    -webkit-appearance: menulist-button;
 }
 
 .reveal .row,
@@ -112,6 +113,11 @@
 .reveal blockquote:after {
     content: '\201D';
     color: #9bb0b5;
+}
+
+.reveal .credit {
+    display: block;
+    font-size: 0.6em;
 }
 
 .reveal .mirror {
