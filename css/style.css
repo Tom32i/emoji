@@ -1,0 +1,129 @@
+.reveal img.emoji {
+    width: 100px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.reveal .emoji {
+    font-size: 100px;
+}
+
+.reveal .center-code {
+    list-style: none;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.reveal .full-code {
+    line-height: 1.1em;
+}
+
+.reveal .banner {
+    color: white;
+    text-shadow: 0  2px 5px black, 0  -1px 20px black;
+}
+
+.reveal .message {
+    background: #cccccc;
+    color: #333333;
+    border-radius: 100px;
+    display: block;
+    margin: 0.2em;
+}
+
+.reveal .inline-code li {
+    position: relative;
+    margin: 1em 0;
+}
+
+.reveal .inline-code li > * {
+    margin: 0;
+    padding: 0;
+}
+
+.reveal .inline-code p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.reveal .inline-code pre {
+    width: 15em;
+    margin-left: 3em;
+}
+
+.reveal .white-blur > * {
+    text-shadow: 0 2px 2px white,
+        0 -2px 2px white,
+        0 0 10px white,
+        0 0 20px white,
+        0 0 30px white,
+        0 0 50px white,
+        0 0 90px white;
+    color: #222222;
+    letter-spacing: 0.2em;
+}
+
+.reveal .small {
+    font-size: 0.8em;
+    color: black;
+}
+
+.reveal .zwj {
+    text-align: center;
+    font-size: 1.5em;
+}
+.reveal .zwj select {
+    font-size: 1em;
+}
+
+.reveal .row,
+.reveal .row:after {
+    clear: both;
+}
+
+.reveal .row .column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.reveal p.inline {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.reveal blockquote {
+    background-color: #FFFCF4;
+}
+
+.reveal blockquote:before,
+.reveal blockquote:after {
+    color: #9bb0b5;
+}
+.reveal blockquote:before {
+    content: '\201C';
+}
+
+.reveal blockquote:after {
+    content: '\201D';
+    color: #9bb0b5;
+}
+
+.reveal .mirror {
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-name: mirror;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mirror {
+    0%, 25% { transform: scale(1, 1); }
+    75%, 100% { transform: scale(-1, 1); }
+}
