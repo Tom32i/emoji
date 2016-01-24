@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>⏱⚡️🎙🤓</title>
+		<title>Emoji</title>
 
 		<meta name="description" content="A talk about emojis">
 		<meta name="author" content="Thomas Jarrand">
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Code syntax highlighting -->
@@ -48,7 +48,7 @@
 				<section>
 					<h2>😂</h2>
 					<h3>Face With Tears of Joy</h3>
-					<p>Word of the year by the Oxford Dictionary</p>
+					<p>Word of the year 2015 by the Oxford Dictionary</p>
 				</section>
 
 				<section data-background="img/texting.jpg">
@@ -57,24 +57,17 @@
 
 				<section>
 					<h2>🔥 Unicode to the rescue 🚒💨</h2>
-					<p>Standardisation en 2010</p>
-					<p>+1000 emoji en 2015</p>
-					<table>
-						<thead>
-							<tr>
-								<th>Unicode</th>
-								<th>HTML</th>
-								<th>Result</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>U+1F4A9</td>
-								<td>&amp;#x1F4A9;</td>
-								<td>&#x1F4A9;</td>
-							</tr>
-						</tbody>
-					</table>
+					<pre class="fragment center-code" style="width: 25%;"><code class="hljs text">U+1F4A9 = &#x1F4A9;</code></pre>
+				</section>
+
+				<section>
+					<section>
+						<h2>✏️ Dessine moi un mouton 🐑</h2>
+					</section>
+				</section>
+
+				<section data-background="img/scream.gif">
+					<h3 class="encoding-error">�</h3>
 				</section>
 
 				<section>
@@ -85,8 +78,8 @@
 						<blockquote>Face with open mouth and cold sweat</blockquote>
 
 						<ul>
-							<li>Représentation litérale</li>
 							<li>Respecte la direction</li>
+							<li>Représentation litérale</li>
 							<li>Rester neutre</li>
 						</ul>
 					</section>
@@ -105,16 +98,16 @@
 								<p>iOs</p>
 								<span class="message emoji" style="background: #34AADC;">I 💛 U</span>
 							</div>
-							<div class="column">
+							<div class="column fragment">
 								<p>Android 5.0</p>
 								<span class="message emoji">I <img class="emoji" src="img/hairy_heart.png"> U</span>
 							</div>
 						</div>
 					</section>
 					<section>
-						<h4>Sens caché</h4>
+						<h4>Know your emoji</h4>
 						<div class="row">
-							<div class="column fragment">
+							<div class="column">
 								<p>What you see</p>
 								<span class="message emoji">🍆🍑</span>
 							</div>
@@ -156,10 +149,10 @@
 				</section>
 
 				<section>
-					<h2>Z&zwj;&zwj;E&zwj;&zwj;R&zwj;&zwj;O&zwj;&zwj; &zwj;&zwj;W&zwj;&zwj;I&zwj;&zwj;D&zwj;&zwj;T&zwj;&zwj;H&zwj;&zwj; &zwj;&zwj;J&zwj;&zwj;O&zwj;&zwj;I&zwj;&zwj;N&zwj;&zwj;E&zwj;&zwj;R&zwj;&zwj;</h2>
+					<h2>Composition</h2>
 
 					<form class="zwj" name="zwj">
-						<pre class="center-code"><code id="zwj-formula"></code></pre>
+						<!--pre class="center-code"><code id="zwj-formula"></code></pre-->
 						<p><select name="from">
 								<option>👩</option>
 								<option>👨</option>
@@ -172,8 +165,8 @@
 					</form>
 				</section>
 
-				<section data-background="img/troll.png">
-					<pre class="center-code" style="width: 60%;"><code class="hljs php">&lt;?php strlen('Z‍‍E‍‍R‍‍O‍‍ ‍‍W‍‍I‍‍D‍‍T‍‍H‍‍ ‍‍J‍‍O‍‍I‍‍N‍‍E‍‍R‍‍'); # int(51)</code></pre>
+				<section>
+					<h2 class="typo">AÀÄÁÂÅĀÃ</h2>
 				</section>
 
 				<section>
@@ -185,57 +178,17 @@
 						<img src="img/git.png">
 					</section>
 					<section>
-						<h3>PHP</h3>
-						<pre class="full-code"><code>&lt;?php
-/**
- * An elephpant
- */
-class 🐘
-{
-    /**
-     * Alive
-     *
-     * @var boolean
-     */
-    private $💓;
-
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->💓 = true;
-    }
-
-    /**
-     * Feed the elephant
-     *
-     * @param string $food This elephant only eats 🍉
-     *
-     * @return string 💩
-     *
-     * @throws 👻 The gost of the elephant
-     */
-    public function feed($food)
-    {
-        if ($food !== '🍉') {
-            return $this->💀();
-        }
-
-        return '💩';
-    }
-
-    /**
-     * Die!
-     */
-    public function 💀()
-    {
-        $this->💓 = false;
-
-        throw new 👻($this);
-    }
-}
-</code></pre>
+						<div class="row">
+							<div class="column">
+								<h3>HTML</h3>
+								<pre class="center-code" style="width: 80%;"><code class="hljs html"><div class="👾"></div></code></pre>
+							</div>
+							<div class="column">
+								<h3>CSS</h3>
+								<pre class="center-code" style="width: 80%;"><code class="hljs css">.👾::before { content: "👾"; }</code></pre>
+							</div>
+							<div class="👾"></div>
+						</div>
 					</section>
 					<section>
 						<h3>Wikipedia</h3>
@@ -244,16 +197,16 @@ class 🐘
 						</a>
 					</section>
 					<section>
-						<h3>Gitlab 8.2</h3>
-						<a target="_blank" href="https://about.gitlab.com/2015/11/22/gitlab-8-2-released/">
-							<img src="img/gitlab.png">
+						<h3>Deadpool movie ad</h3>
+						<a target="_blank" href="https://twitter.com/pattonoswalt/status/687319128810504192/photo/1">
+							<img src="img/deadpool.jpg">
 						</a>
 					</section>
 					<section>
 						<h3>Twitter</h3>
 						<a target="_blank" href="http://www.emojitracker.com">
 							<img src="img/twitter_tracker.png">
-							emojitracker.com
+							<br>emojitracker.com
 						</a>
 					</section>
 					<section data-background="img/columbia.jpg">
@@ -261,7 +214,7 @@ class 🐘
 					</section>
 				</section>
 				<section>
-					<h2>🙇 Merci et joyeuses fêtes ! 🎄</h2>
+					<h2>🙇 Merci et bonne année ! 🎆</h2>
 
 					<div class="credit">
 						<p>Sources</p>
@@ -281,7 +234,7 @@ class 🐘
 						</a>
 					</div>
 
-					<div class="credit">
+					<div class="credit" style="width: 100%;">
 						<p>Twitter</p>
 						<a target="_blank" href="https://twitter.com/Tom32i">
 							@Tom32i
@@ -295,6 +248,7 @@ class 🐘
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 		<script src="js/ZWJ.js"></script>
+		<script src="👾.js"></script>
 
 		<script>
 

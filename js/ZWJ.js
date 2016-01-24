@@ -33,7 +33,10 @@ ZWJ.prototype.heart = '❤️';
 ZWJ.prototype.resolve = function()
 {
     this.result.innerHTML  = this.getSentence(this.connector);
-    this.formula.innerHTML = this.getSentence(this.connector.replace('&', '&amp;'));
+
+    if (this.formula) {
+        this.formula.innerHTML = this.getSentence(this.connector.replace('&', '&amp;'));
+    }
 };
 
 /**
