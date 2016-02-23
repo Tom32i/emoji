@@ -10,6 +10,10 @@
     max-height: 75%;
 }
 
+.reveal .big {
+    font-size: 2em;
+}
+
 .reveal .emoji {
     font-size: 100px;
 }
@@ -134,7 +138,7 @@
 .reveal .credit {
     display: block;
     font-size: 0.6em;
-    width: 50%;
+    width: 33%;
     float: left;
 }
 
