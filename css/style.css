@@ -6,8 +6,15 @@
     margin: 0;
 }
 
+.reveal img.illustration {
+    border: none;
+    background: none;
+    box-shadow: none;
+    margin: 0;
+}
+
 .reveal img {
-    max-height: 75%;
+    max-width: 75%;
 }
 
 .reveal .big {
